@@ -39,7 +39,7 @@ A GPT-2 based fine-tuned model for generating comprehensive food facts from Open
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/food-fact-generator.git
+git clone https://github.com/Setsofia-lab/foodfactgenerator.git
 cd food-fact-generator
 
 # Create virtual environment
