@@ -1,0 +1,30 @@
+ **Fun Fact about coca cola:**
+Output:|startoftext|>coca cola. contains 1674.0 kcal of energy, 100.0g of carbohydrates, and 100.0g of sugar per 100g. This product is available in france.
+
+ Enter a food item: cola nuts
+ Generating fact for: cola nuts
+ Input: <|startoftext|>cola nuts ->
+ Tokenized input shape: torch.Size([1, 11])
+ Generating...
+
+ **Fun Fact about cola nuts:**
+Output:|startof TEXT|>cola nuts. contains 2264.0 kcal of energy, 10.0g of protein, 37.0g of fat, 45.0g of carbohydrates, and 4.0g of sugar per 100g. This product is available in france.
+
+ Enter a food item: cashew nuts
+ Generating fact for: cashew nuts
+ Input: <|startoftext|>cashew nuts ->
+ Tokenized input shape: torch.Size([1, 11])
+ Generating...
+
+ **Fun Fact about cashew nuts:**
+Output:|startoftext|>cashew nuts. contains 2452.0 kcal of energy, 26.2g of protein, 48.5g of fat, 11.3g of carbohydrates, and 5.6g of sugar per 100g. This product is available in australia.
+
+ Enter a food item: pop corn
+ Generating fact for: pop corn
+ Input: <|startoftext|>pop corn->
+ Tokenized input shape: torch.Size([1, 9])
+ Generating...
+
+ **Fun Fact about pop corn:**
+Output:|startoftext|>(pop corn). contains 1544.0 kcal of energy, 0.5g of protein, 0.5g of fat, 89.0g of carbohydrates, and 77.0g of sugar per 100g. This product is available in belgium.
+
