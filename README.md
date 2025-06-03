@@ -151,7 +151,7 @@ warmup_steps = 25%      # Of first epoch
 | Storage | 5GB | 10GB+ |
 | Training Time | 4-6 hours | 2-3 hours |
 
-## 💻 Usage
+## Usage
 
 ### Command Line
 
@@ -212,7 +212,7 @@ fact = generate_food_fact("Greek Yogurt")
 print(fact)
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 food-fact-generator/
@@ -264,7 +264,7 @@ DATA_CONFIG = {
 }
 ```
 
-## 📈 Examples
+## Examples
 
 ### Input-Output Examples
 
@@ -292,7 +292,7 @@ for product, fact in zip(products, facts):
     print(f"{product}: {fact}\n")
 ```
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -336,17 +336,6 @@ model.resize_token_embeddings(len(tokenizer))
 - **Encoding Issues**: Use `encoding='utf-8', errors='ignore'`
 - **Missing Data**: Filter out products with insufficient information
 
-## 🤝 Contributing
-
-We welcome contributions! Please follow these steps:
-
-1. **Fork the repository**
-2. **Create a feature branch**: `git checkout -b feature/amazing-feature`
-3. **Make your changes**
-4. **Add tests** if applicable
-5. **Commit your changes**: `git commit -m 'Add amazing feature'`
-6. **Push to the branch**: `git push origin feature/amazing-feature`
-7. **Open a Pull Request**
 
 ### Development Setup
 
@@ -362,26 +351,10 @@ black *.py
 flake8 *.py
 ```
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
 
-- **OpenFoodFacts**: For providing the comprehensive food database
-- **Hugging Face**: For the transformers library and pre-trained models
-- **Kaggle**: For hosting the dataset
-- **PyTorch**: For the deep learning framework
-
-## 🚀 Future Enhancements
-
-- [ ] Support for multiple languages
-- [ ] Integration with recipe databases
-- [ ] Web API for real-time inference
-- [ ] Mobile app integration
-- [ ] Dietary restriction filtering
-- [ ] Allergen information inclusion
-- [ ] Sustainability metrics
-- [ ] Price comparison features
 
 ---
