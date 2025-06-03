@@ -1,8 +1,8 @@
-# 🍕 Food Fact Generator
+#  Food Fact Generator
 
 A GPT-2 based fine-tuned model for generating comprehensive food facts from OpenFoodFacts dataset. This project processes nutritional data and generates natural language descriptions about food products including their nutritional content, categories, Nutri-Score ratings, and availability by country.
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Features](#features)
 - [Installation](#installation)
@@ -17,7 +17,7 @@ A GPT-2 based fine-tuned model for generating comprehensive food facts from Open
 - [Contributing](#contributing)
 - [License](#license)
 
-## ✨ Features
+##  Features
 
 - **Comprehensive Data Processing**: Handles OpenFoodFacts dataset with proper tab-separated parsing
 - **Country Code Mapping**: Maps country codes to full country names for better fact generation
@@ -27,7 +27,7 @@ A GPT-2 based fine-tuned model for generating comprehensive food facts from Open
 - **Sample Generation**: Built-in testing with sample food fact generation
 - **Production Ready**: Complete model saving, metrics tracking, and error handling
 
-## 🚀 Installation
+##  Installation
 
 ### Prerequisites
 
@@ -61,7 +61,7 @@ scikit-learn>=1.0.0
 kagglehub
 ```
 
-## 🏃‍♂️ Quick Start
+##  Quick Start
 
 ### 1. Download the Dataset
 
@@ -96,7 +96,7 @@ trained_model, tokenizer, model = trainer.train_model()
 # Or use the saved model for inference
 ```
 
-## 📊 Dataset Processing
+##  Dataset Processing
 
 The preprocessing pipeline handles:
 
@@ -120,7 +120,7 @@ input,output
 "Chocolate Chip Cookies","Chocolate Chip Cookies contains 2040.0 kcal of energy, 7.0g of protein, 25.0g of fat, 56.0g of carbohydrates, and 33.0g of sugar per 100g. It belongs to the chocolate biscuits category and has a Nutri-Score grade of E. This product is available in France."
 ```
 
-## 🎯 Model Training
+## Model Training
 
 ### Training Features
 
@@ -233,7 +233,7 @@ food-fact-generator/
     └── inference_example.py
 ```
 
-## ⚙️ Configuration
+##  Configuration
 
 ### Training Parameters
 
