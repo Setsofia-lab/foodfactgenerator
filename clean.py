@@ -245,4 +245,4 @@ def preprocess_food_data():
 # Run the preprocessing
 if __name__ == "__main__":
     training_data, detailed_data = preprocess_food_data()
-    print("\nPreprocessing completed successfully!")
+    print("\n preprocessing completed!")
